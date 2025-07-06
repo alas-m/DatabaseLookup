@@ -68,7 +68,7 @@ SQLite3 (for SQLite databases)
 Python 3 (for HashGen.py)
 
 # 📄 License
-MIT License
+[MIT License]([url](https://github.com/alas-m/DatabaseLookup/tree/main?tab=MIT-1-ov-file))
 
 # 🤝 Contributions
 Feel free to fork and improve! Pull requests are welcome.
