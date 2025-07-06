@@ -12,7 +12,7 @@ A simple and efficient C++ utility to search SQL/SQLite databases using SHA-256 
 
 - Hashes must be stored in columns with _sha256 or _sha suffixes
 
-- Compatible with hash generation using the included HashGen.py
+- Compatible with hash generation using the included addhash.py
 
 
 # 🚀 Usage
@@ -58,14 +58,14 @@ Searches all other _sha256 or _sha columns
 
 Can be used for full names, emails, usernames, passwords, etc.
 
-`Note: Your database must contain hash columns named according to this structure. Use the provided HashGen.py script to generate SHA-1 or SHA-256 hashes for your data.`
+`Note: Your database must contain hash columns named according to this structure. Use the provided addhash.py script to generate SHA-1 or SHA-256 hashes for your data.`
 
 # ⚡ Requirements
 C++17 or newer
 
 SQLite3 (for SQLite databases)
 
-Python 3 (for HashGen.py)
+Python 3 (for addhash.py)
 
 # 📄 License
 [MIT License]([url](https://github.com/alas-m/DatabaseLookup/tree/main?tab=MIT-1-ov-file))
